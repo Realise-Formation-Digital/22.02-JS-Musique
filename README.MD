@@ -1,4 +1,4 @@
-# Front End JS-Musique
+# Front End de JS-Musique
 
 Résumé du projet:
 Création d'une application front présentant les informations récupérée à partir du backend.
