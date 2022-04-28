@@ -18,3 +18,4 @@ Projet reparti en 7 Étapes:
 2. Créations de la page affichage donnée
 3. Affichage de l'ensemble du contenu d'un seul résultat dans une modale
 4. Barre de Recherche 
+5. Ajout de fonctionnalité 
