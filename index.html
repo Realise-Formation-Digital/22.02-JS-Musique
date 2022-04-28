@@ -5,74 +5,248 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
-
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <!-- Titre du carousel-->
-    <div class="header">
-      <div class="title">Artist</div>
-      <div class="subtitle">
-       
-      </div>
+    <h1 style="font-family: cursive;"></h1>
+    <div class="accordion">
+      <ul>
+        <li tabindex="1">
+          <div>
+            <div class="btn">
+              <div class="number"><i class='fas fa-laptop' style='font-size:24px'></i></div>
+              <div class="content">
+                <h2>Nom de l'artiste</h2>
+                <p></p>
+                <a data-fancybox data-src="#" href="javascript:;">Modal</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li tabindex="2">
+          <div>
+            <div class="btn">
+              <div class="number"><i class='fas fa-shield-alt' style='font-size:24px'></i></div>
+              <div class="content">
+                <h2>Nom de l'artiste</h2>
+                <p></p>
+                <a data-fancybox data-src="#" href="javascript:;">Modal</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li tabindex="3">
+          <div>
+            <div class="btn">
+              <div class="number"><i class='fas fa-theater-masks' style='font-size:24px'></i></div>
+              <div class="content">
+                <h2>Nom de l'artiste</h2>
+                <p></p>
+                <a data-fancybox data-src="#" href="javascript:;">Modal</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li tabindex="4">
+          <div>
+            <div class="btn">
+              <div class="number"><i class='fas fa-laptop-house' style='font-size:24px'></i></div>
+              <div class="content">
+                <h2>Nom de l'artiste</h2>
+                <p></p>
+                <a data-fancybox data-src="#" href="javascript:;">Modal</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li tabindex="5">
+          <div>
+            <div class="btn">
+              <div class="number"><i class='fas fa-dragon' style='font-size:24px'></i></div>
+              <div class="content">
+                <link data-fancybox data-src="#" href=""><h2>Nom de l'artiste</h2></link>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li tabindex="6">
+          <div>
+            <div class="btn">
+              <div class="number"><i class='fas fa-poll-h' style='font-size:24px'></i></div>
+              <div class="content">
+                <h2>Nom de l'artiste</h2>
+                <p></p>
+                <a data-fancybox data-src="#ml" href="javascript:;">Modal</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li tabindex="7">
+          <div>
+            <div class="btn">
+              <div class="number"><i class='fas fa-code' style='font-size:24px'></i></div>
+              <div class="content">
+                <h2>Nom de l'artiste</h2>
+                <p></p>
+                <a data-fancybox data-src="#cl" href="javascript:;">Modal</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
-    <div class="carousel">
-      <div class="carousel__scene">
-        <ol class="carousel__list">
-          <li class="carousel__cell">
-            <span class="song__title"></span
-            ><span class="song__year"></span
-            ><span class="song__artist"></span>
-          </li>
-          <li class="carousel__cell">
-            <span class="song__title"></span
-            ><span class="song__year"></span
-            ><span class="song__artist"></span>
-          </li>
-          <li class="carousel__cell">
-            <span class="song__title"></span
-            ><span class="song__year"></span
-            ><span class="song__artist"></span>
-          </li>
-          <li class="carousel__cell">
-            <span class="song__title"></span
-            ><span class="song__year"></span
-            ><span class="song__artist"></span>
-          </li>
-          <li class="carousel__cell">
-            <span class="song__title"></span
-            ><span class="song__year"></span
-            ><span class="song__artist"></span>
-          </li>
-          <li class="carousel__cell">
-            <span class="song__title"></span
-            ><span class="song__year"></span
-            ><span class="song__artist"></span>
-          </li>
-          <li class="carousel__cell">
-            <span class="song__title"></span
-            ><span class="song__year"></span
-            ><span class="song__artist"></span>
-          </li>
-          <li class="carousel__cell">
-            <span class="song__title"></span
-            ><span class="song__year"></span
-            ><span class="song__artist"></span>
-          </li>
-          <li class="carousel__cell">
-            <span class="song__title"></span
-            ><span class="song__year"></span
-            ><span class="song__artist"></span>
-          </li>
-      </div>
-      <div class="carousel__controls">
-        <button class="previous-button">&#x1F446;&#x1F3FB;</button>
-        <button class="next-button">&#x1F447;&#x1F3FB;</button>
-      </div>
+    
+    <div style="display: none;" id="cs">
+      <h2><i class='fas fa-laptop' style='font-size:24px'></i></h2>
+      <p style="text-align: justify;"></p>
     </div>
+    <div style="display: none;" id="cbs">
+      <h2><i class='fas fa-shield-alt' style='font-size:24px'></i> Cyber Security</h2>
+      <p style="text-align: justify;"></p>
+    </div>
+    <div style="display: none;" id="eh">
+      <h2><i class='fas fa-theater-masks' style='font-size:24px'></i></h2>
+      <p style="text-align: justify;"></p>
+    </div>
+    <div style="display: none;" id="wd">
+      <h2><i class='fas fa-laptop-house' style='font-size:24px'></i></h2>
+      <p style="text-align: justify;"></p>
+    </div>
+    <div style="display: none;" id="pe">
+      <h2><i class='fas fa-dragon' style='font-size:24px'></i></h2>
+      <p style="text-align: justify;"></p>
+    </div>
+    <div style="display: none;" id="ml">
+      <h2><i class='fas fa-poll-h' style='font-size:24px'></i></h2>
+      <p style="text-align: justify;"></p>
+    </div>
+    <div style="display: none;" id="cl">
+      <h2><i class='fas fa-code' style='font-size:24px'></i></h2>
+      <p style="text-align: justify;"></p>
+      </div>
 
-    <script type="text/javascript" src="main.js"></script>
 
+      <h1 style="font-family: cursive;"></h1>
+      <div class="accordion">
+        <ul>
+          <li tabindex="1">
+            <div>
+              <div class="btn">
+                <div class="number"><i class='fas fa-laptop' style='font-size:24px'></i></div>
+                <div class="content">
+                  <h2>Nom de l'artiste</h2>
+                  <p></p>
+                  <a data-fancybox data-src="#cs" href="javascript:;">Modal</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li tabindex="2">
+            <div>
+              <div class="btn">
+                <div class="number"><i class='fas fa-shield-alt' style='font-size:24px'></i></div>
+                <div class="content">
+                  <h2>Nom de l'artiste</h2>
+                  <p></p>
+                  <a data-fancybox data-src="#cbs" href="javascript:;">Modal</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li tabindex="3">
+            <div>
+              <div class="btn">
+                <div class="number"><i class='fas fa-theater-masks' style='font-size:24px'></i></div>
+                <div class="content">
+                  <h2>Nom de l'artiste</h2>
+                  <p></p>
+                  <a data-fancybox data-src="#eh" href="javascript:;">Modal</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li tabindex="4">
+            <div>
+              <div class="btn">
+                <div class="number"><i class='fas fa-laptop-house' style='font-size:24px'></i></div>
+                <div class="content">
+                  <h2>Nom de l'artiste</h2>
+                  <p></p>
+                  <a data-fancybox data-src="#wd" href="javascript:;">Modal</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li tabindex="5">
+            <div>
+              <div class="btn">
+                <div class="number"><i class='fas fa-dragon' style='font-size:24px'></i></div>
+                <div class="content">
+                  <h2>Nom de l'artiste</h2>
+                  <p></p>
+                  <a data-fancybox data-src="#pe" href="javascript:;">Modal</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li tabindex="6">
+            <div>
+              <div class="btn">
+                <div class="number"><i class='fas fa-poll-h' style='font-size:24px'></i></div>
+                <div class="content">
+                  <h2>Nom de l'artiste</h2>
+                  <p></p>
+                  <a data-fancybox data-src="#ml" href="javascript:;">Modal</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li tabindex="7">
+            <div>
+              <div class="btn">
+                <div class="number"><i class='fas fa-code' style='font-size:24px'></i></div>
+                <div class="content">
+                  <h2>Nom de l'artiste</h2>
+                  <p></p>
+                  <a data-fancybox data-src="#cl" href="javascript:;">Modal</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+      <div style="display: none;" id="cs">
+        <h2><i class='fas fa-laptop' style='font-size:24px'></i></h2>
+        <p style="text-align: justify;"></p>
+      </div>
+      <div style="display: none;" id="cbs">
+        <h2><i class='fas fa-shield-alt' style='font-size:24px'></i> Cyber Security</h2>
+        <p style="text-align: justify;"></p>
+      </div>
+      <div style="display: none;" id="eh">
+        <h2><i class='fas fa-theater-masks' style='font-size:24px'></i></h2>
+        <p style="text-align: justify;"></p>
+      </div>
+      <div style="display: none;" id="wd">
+        <h2><i class='fas fa-laptop-house' style='font-size:24px'></i></h2>
+        <p style="text-align: justify;"></p>
+      </div>
+      <div style="display: none;" id="pe">
+        <h2><i class='fas fa-dragon' style='font-size:24px'></i></h2>
+        <p style="text-align: justify;"></p>
+      </div>
+      <div style="display: none;" id="ml">
+        <h2><i class='fas fa-poll-h' style='font-size:24px'></i></h2>
+        <p style="text-align: justify;"></p>
+      </div>
+      <div style="display: none;" id="cl">
+        <h2><i class='fas fa-code' style='font-size:24px'></i></h2>
+        <p style="text-align: justify;"></p>
+      </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
