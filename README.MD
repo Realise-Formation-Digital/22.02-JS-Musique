@@ -12,3 +12,7 @@ HTML,CSS et JS
 
 Planning: 
 le projet est sur 3,5 jours
+
+Projet reparti en 7 Étapes:
+1. Création de la page d'accueil 
+2. Créations de la page affichage donnée 
