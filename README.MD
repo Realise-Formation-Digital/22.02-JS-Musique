@@ -15,4 +15,5 @@ le projet est sur 3,5 jours
 
 Projet reparti en 7 Étapes:
 1. Création de la page d'accueil 
-2. Créations de la page affichage donnée 
+2. Créations de la page affichage donnée
+3. Affichage de l'ensemble du contenu d'un seul résultat dans une modale
