@@ -19,3 +19,5 @@ Projet reparti en 7 Étapes:
 3. Affichage de l'ensemble du contenu d'un seul résultat dans une modale
 4. Barre de Recherche 
 5. Ajout de fonctionnalité 
+
+inspiration: PLYR.io
