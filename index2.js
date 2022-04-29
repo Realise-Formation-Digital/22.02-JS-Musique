@@ -1,20 +1,26 @@
+
+// Declaration Variables liste/nameB/imageB/id 
+
 let liste = document.getElementById("liste")
 let nameB = null
 let imageB = null
 let id = null
+
+// Fonction ASYNC getMusique 
+
 async function getMusique() {
+  // Try & Catch avec Const reponse AWAIT par AXIOS lien avec API
   try {
     const response = await axios.get('https://webdev.fedorageek.org/api/musique/list')
     console.log(response.data)
-    // console.log(response.data[0].name)
-    //   insertText(response.data[0].name, response.data[0].tagline, response.data[0].image_url)
+    // Boucle For Reponse DATA
     for (const element of response.data) {
-
+      // Variables DATA nameB/id/imageB
       nameB = element.nom
       id = element.id
       imageB = element.url
 
-
+      // Incrementation code HTML pour AFFICHAGE 
      liste.innerHTML += ` <div class="container"><li class="container-fluid">
   
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=#`+ nameB + `>
@@ -56,4 +62,5 @@ async function getMusique() {
     console.log(error);
   }
 }
+// AFFICHAGE Reponse Server
 await getMusique()
