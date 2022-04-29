@@ -5,3 +5,11 @@ html{
 body{
     background-color: rgba(128, 128, 128, 0);
 }
+
+h1{
+  text-align: center;
+  text-Transform: capitalize;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: azure;
+}

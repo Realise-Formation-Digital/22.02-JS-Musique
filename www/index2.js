@@ -108,3 +108,8 @@ async function getMusique() {
 }
 
 await getMusique()
+
+/*h1{
+  text-align: clearInterval;
+  text-Transform: capitalize;
+} */
