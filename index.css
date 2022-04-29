@@ -1,0 +1,12 @@
+
+/*titre de la page d'accueil*/
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: bisque;
+}
+h2, p{
+    color: bisque; 
+}
