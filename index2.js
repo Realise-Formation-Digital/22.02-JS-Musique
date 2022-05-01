@@ -36,9 +36,9 @@ async function getMusique() {
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <`+id+ `>
-      `+imageB + `
-      <div class="plyr__video-embed container" id="player">
+      ID : `+id+  `
+      / URL : `+imageB + `
+      <div class="plyr__video-embed container pt-3" id="player">
   <iframe class="container-fluid"
     src=`+ imageB +`
     allowfullscreen
@@ -50,7 +50,6 @@ async function getMusique() {
       <div class="modal-footer">
 
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
