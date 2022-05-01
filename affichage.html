@@ -17,18 +17,29 @@
   </head>
 
   <body>
+    <header class="navBar">
+      <h2 class="juke">JukeBox</h2>
+    </header>
     <div id="scene">
       <div id="left-zone">
-        <ul class="list" id="listArtiste">
-            <div class="content content_one" id="listMusique">
+        
+        <ul class="list" id="li">
+          <h2 class="titleA">Artiste</h2>         
         </ul>
       </div>
       <div id="middle-border"></div>
-      <div id="right-zone"></div>
+      <div id="right-zone">
+        <div class="container" id="card">
+          
+        </div>
+
+         
+      </div>
     </div>
 
     <!-- JS FILES + AXIOS LIBRARY -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+     
     <script type="module" src="getartiste.js"></script>
   </body>
 </html>

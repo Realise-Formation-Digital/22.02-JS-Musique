@@ -3,6 +3,17 @@ body {
   user-select: none;
 }
 
+.navBar{
+  box-shadow: 20px 20px 50px #9d9d9d, -20px -20px 50px #ffffff;
+  background-color: rgb(32, 32, 32)
+}
+
+.juke{
+  margin-left: 20px;
+  color: #f1f1f1;
+
+}
+
 .container {
   position: absolute;
   height: 600px;
@@ -10,6 +21,11 @@ body {
   top: 60px;
   left: calc(50% - 300px);
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .card {
@@ -19,12 +35,18 @@ body {
   background-color: #525252;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
-  /*   margin-left: -50px; */
+  margin-left: 100px; 
   transition: 0.4s ease-out;
   position: relative;
   left: 0px;
 }
 
+.btn{
+  position: absolute;
+  top: 20px;
+  width: 150px;
+  box-shadow: 2px 4px 4px -2px #000000;
+}
 .card:not(:first-child) {
   margin-left: -50px;
 }
@@ -41,7 +63,7 @@ body {
 }
 
 .title {
-  color: white;
+  color: rgb(194, 3, 3);
   font-weight: 300;
   position: absolute;
   left: 20px;
@@ -144,6 +166,11 @@ body {
   align-items: center;
   justify-content: left;
 }
+.titleA{
+  display:flex;
+  justify-content: space-around;
+  color: #000;
+}
 .list {
   display: flex;
   list-style: none;
@@ -229,32 +256,62 @@ body {
   -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
-.list li.item input[type="radio"]:checked ~ label.label_one {
+.list li.item input[type="radio"]:checked ~ label.label_1 {
   color: #d64541;
   border-right: solid 4px #d64541;
 
   background: #ffffff;
   box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
 }
-.list li.item input[type="radio"]:checked ~ label.label_two {
+.list li.item input[type="radio"]:checked ~ label.label_2 {
   color: #f5d76e;
   border-right: solid 4px #f5d76e;
 
   box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
 }
-.list li.item input[type="radio"]:checked ~ label.label_three {
+.list li.item input[type="radio"]:checked ~ label.label_3 {
   color: #00b16a;
   border-right: solid 4px #00b16a;
 
   box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
 }
-.list li.item input[type="radio"]:checked ~ label.label_four {
+.list li.item input[type="radio"]:checked ~ label.label_4 {
   color: #f27935;
   border-right: solid 4px #f27935;
 
   box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
 }
-.list li.item input[type="radio"]:checked ~ .content {
+.list li.item input[type="radio"]:checked ~ label.label_5 {
+  color: #269eb3;
+  border-right: solid 4px #269eb3;
+
+  box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+}
+.list li.item input[type="radio"]:checked ~ label.label_6 {
+  color: #ec35f2;
+  border-right: solid 4px #ec35f2;
+
+  box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+}
+.list li.item input[type="radio"]:checked ~ label.label_7 {
+  color: #7d35f2;
+  border-right: solid 4px #7d35f2;
+
+  box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+}
+.list li.item input[type="radio"]:checked ~ label.label_8 {
+  color: #3558f2;
+  border-right: solid 4px #3558f2;
+
+  box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+}
+.list li.item input[type="radio"]:checked ~ label.label_9 {
+  color: #020202;
+  border-right: solid 4px #020202;
+
+  box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+}
+ .list li.item input[type="radio"]:checked ~ .content {
   -webkit-animation-duration: 0.75s;
   animation-duration: 0.75s;
   -webkit-animation-name: slidein;
@@ -263,7 +320,7 @@ body {
   animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
+} 
 
 #right-zone {
   background: rgb(32, 32, 32);
